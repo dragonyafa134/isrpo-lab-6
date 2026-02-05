@@ -68,7 +68,20 @@ blockquote{
 
 
 
-
+form{
+    max-width: 400px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input,
+textarea,
+select{
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+}
 
 
 
