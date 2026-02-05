@@ -80,6 +80,23 @@ iframe{
     background: white;
 }
 
+svg{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #d0d7e2;
+}
+
+svg:hover{
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+svg text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 form{
     max-width: 400px;
 }
